@@ -1,0 +1,28 @@
+<div class="container">
+  <form >
+    <div class="form-group">
+      <label> valor A</label>
+      <input
+      class="form-control"
+      type='number'
+      placeholder="Ingrese operando A"
+      (input)='setOperandoA($event)'>
+    </div>
+
+    <div class="form-group">
+      <label>valor B</label>
+      <input
+      class="form-control"
+      type='number'
+      placeholder="Ingrese operando B"
+      (input)='setOperandoB($event)'>
+    </div>
+
+    <div>
+      <button
+      class="btn btn-primary"
+      (click)='onSuma()'
+      >Sumar</button>
+    </div>
+  </form>
+</div>

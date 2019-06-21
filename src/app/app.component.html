@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Ejercicio Calculadora</h2>
+
+  <app-formulario
+  (resultado)="onObtenerResultado($event)"
+  ></app-formulario>
+
+  <app-resultado
+  [resultadoObtenido]="_resultado"
+  ></app-resultado>
+
+</div>
